@@ -2,10 +2,43 @@
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
 
+let x = 3;
+let y = 10;
+let z = 4;
+let greeting = ('hello');
+let firstName = ('Steve');
+let callStatus = ('ringing');
 
 
+function double ( x + x ) {
+   // doubles the value of X
+}
 
- 
+function triple (y + y + y) {
+  
+  // triples the value of y
+}
+
+function square () {
+  // square the value of z
+}
+
+function beNice ( greeting = firstName ) {
+  
+  // what the function does
+}
+
+function changeName ( firstName = 'Danger') {
+  
+  // changes the value of firstName to the string 'Danger'
+}
+
+function hangUp (callStatus = 'call ended') {
+  
+  // changes the value of callStatus to the string 'call ended'
+}
+
+console.log ('double')
 
 /*********************************************************************************************************************
 
