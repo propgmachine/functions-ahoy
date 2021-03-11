@@ -10,35 +10,31 @@ let firstName = ('Steve');
 let callStatus = ('ringing');
 
 
-function double ( _x + x ) {
-   // doubles the value of X
+function double () {
+   x = x * 2;
 }
 
-function triple (_y + y + y) {
-  
-  // triples the value of y
+function triple () {
+  y = y * 3;
 }
 
 function square () {
-  // square the value of z
+  z = z ** 2;
 }
 
-function beNice ( _greeting = firstName ) {
-  
-  // what the function does
+function beNice() {
+  greeting = "hello, " + firstName;
 }
 
-function changeName ( _firstName = 'Danger') {
-  
-  // changes the value of firstName to the string 'Danger'
+function changeName() {
+  firstName = "Danger";
 }
 
-function hangUp (_callStatus = 'call ended') {
-  
-  // changes the value of callStatus to the string 'call ended'
+function hangUp() {
+  callStatus = 'call ended';
 }
 
-console.log ('double')
+hangUp()
 
 /*********************************************************************************************************************
 
